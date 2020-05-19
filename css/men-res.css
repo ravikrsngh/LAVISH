@@ -1,0 +1,86 @@
+@media only screen and (max-width: 1024px) {
+
+  header {
+    height: 60px;
+  }
+  header .menu-bar span {
+    font-size: 25px;
+  }
+  header .brand-name {
+    font-size: 0px;
+  }
+  header .side-icons span {
+    margin-left:20%;
+    font-size: 22px;
+    position: relative;
+    right: 120%;
+  }
+  .side-menubar {
+    font-size: 12px;
+    padding-top: 60px;
+    padding-left: 25px;
+    padding-right: 50px;
+  }
+  .side-menubar h1 {
+    margin: 5% 0;
+  }
+  .side-menubar .signup{
+    font-size: 15px;
+  }
+  .women-list , .men-list , .kids-list , .sb-list {
+    font-size: 15px;
+  }
+  .content {
+    width: 100%;
+    position: absolute;
+    top:50px;
+  }
+  .closed {
+    text-align: justify;
+    font-size: 10px;
+    width: 90%;
+  }
+  .m-pic1 {
+    width: 100%;
+    margin-top: 50px;
+  }
+  .h {
+    display: none;
+  }
+  .m-pic11 {
+    width: 90%;
+    grid-template-columns: 49% 2% 49%;
+    height: calc(100vh - 60px);
+  }
+  .text {
+    margin-bottom: 20px;
+  }
+  .text h4{
+    font-size: 12px;
+  }
+  .text  p {
+    font-size: 11px;
+  }
+  .part-2 {
+    grid-template-columns: 55% 45%;;
+    margin-top: 80%;
+    margin-bottom: 100px;
+  }
+  .part-2 img {
+    width: 100%;
+  }
+  .part-2-text h3 {
+    font-size: 15px;
+    padding: 1.5%;
+  }
+  .part-2-text  p {
+    font-size: 12px;
+  }
+
+  .mobile-footer {
+    display: flex;
+  }
+
+
+
+}

@@ -1,0 +1,85 @@
+@media (max-width: 1024px) {
+
+  header {
+    height: 60px;
+  }
+  header .menu-bar span {
+    font-size: 25px;
+  }
+  header .brand-name {
+    font-size: 0px;
+  }
+  header .side-icons span {
+    margin-left:20%;
+    font-size: 22px;
+    position: relative;
+    right: 120%;
+  }
+  .side-menubar {
+    font-size: 12px;
+    padding-top: 60px;
+    padding-left: 25px;
+    padding-right: 50px;
+  }
+  .side-menubar h1 {
+    margin: 5% 0;
+  }
+  .side-menubar .signup{
+    font-size: 15px;
+  }
+  .women-list , .men-list , .kids-list , .sb-list {
+    font-size: 15px;
+  }
+  .left-option , .right-option {
+    visibility: hidden;
+  }
+  .text-content h1 {
+    font-size: 35px;
+  }
+  .text-content p {
+    font-size: 13px;
+    margin-bottom: 20px;
+  }
+  .text-content a {
+    font-size: 10px;
+    padding: 8px 50px;
+  }
+  .logo h1 {
+    font-size: 30px;
+  }
+  @keyframes expand {
+    40% , 60% {
+      letter-spacing: 20px;
+    }
+  }
+
+  .logo p {
+    font-size: 10px;
+  }
+  @keyframes expandp {
+    40% , 60% {
+      letter-spacing: 5px;
+    }
+  }
+
+  .newsletter-content h1 {
+    font-size: 5vw;
+  }
+  .newsletter-content input {
+    padding: 4% 15%;
+    margin-bottom: 40px;
+  }
+  .newsletter-content ul {
+    font-size: 10px;
+    letter-spacing: 1px;
+
+  }
+  .newsletter-content ul li {
+    margin: 10% 2%;
+  }
+
+  .mobile-nav {
+    display: flex;
+  }
+
+}
